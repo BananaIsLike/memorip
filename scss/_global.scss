@@ -1,7 +1,14 @@
-@font-face {
-    font-family: "ふい字";
-    src: url(./HuiFont29.ttf);
-  }
-body {
-  font-family: "ふい字" !important;
+// @font-face {
+//     font-family: "ふい字";
+//     src: url(./HuiFont29.ttf);
+//   }
+// body {
+//   font-family: "ふい字" !important;
+// }
+
+body{
+    height: 100%;
+    width: 100%;
+    background-color: $base-color;
+    font-family: $primary-font;
 }

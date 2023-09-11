@@ -1,4 +1,3 @@
-@charset "UTF-8";
 *,
 *:before,
 *:after {
@@ -40,12 +39,75 @@ body {
   line-height: 1;
 }
 
-@font-face {
-  font-family: "ふい字";
-  src: url(./HuiFont29.ttf);
-}
 body {
-  font-family: "ふい字" !important;
+  height: 100%;
+  width: 100%;
+  background-color: #FEF2F6;
+  font-family: "Kiwi Maru", sans-serif;
+}
+
+.wrapper {
+  height: 100vh;
+  width: 100vw;
+  background-image: url(./../imgs/homeMain.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  position: relative;
+}
+
+.home-btn {
+  color: #1E1E1E;
+  font-family: "Kiwi Maru", sans-serif;
+  font-size: 30px;
+  line-height: normal;
+  letter-spacing: -0.5px;
+  padding: 13px 53px;
+  background-color: #fff;
+  border-radius: 10px;
+  border: 3px solid #FFF;
+  background: #FFB400;
+  box-shadow: 0px 4px 4px 0px rgba(89, 89, 89, 0.25);
+  display: block;
+  position: absolute;
+  left: 50%;
+  bottom: 60px;
+  transform: translateX(-50%);
+  white-space: nowrap;
+}
+
+.home-category {
+  display: flex;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin-right: -27px;
+}
+.home-category--img {
+  margin: 0 auto;
+}
+.home-category--img1 {
+  margin-top: 20px;
+}
+.home-category--btn {
+  padding: 10px 0;
+  display: block;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  width: 80px;
+  height: 80px;
+  background-color: #CFF1FF;
+  border-radius: 20px;
+  border: 3px solid #2EBCFF;
+}
+.home-category--btn:nth-child(2) {
+  margin-top: -25px;
+}
+.home-category--btn:not(:last-child) {
+  margin-right: 27px;
 }
 
 /*# sourceMappingURL=style.css.map */
