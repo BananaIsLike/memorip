@@ -1,13 +1,20 @@
+// sass ./scss/app_start.scss ./css/app_start.css --watch
+
+@import "variables";
+@import "reset";
+@import "global";
+
+
 .wrapper{
     height: 100vh;
     width: 100vw;
-    background-image: url(./../imgs/homeMain.png);
+    background-image: url(./../imgs/startMain.png);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: bottom center;
     position: relative;
 }
-.home-btn{
+.start-btn{
     color: #1E1E1E;
     font-family: $primary-font;
     font-size: 30px;
@@ -26,7 +33,7 @@
     transform: translateX(-50%);
      white-space: nowrap;
 }
-.home-category{
+.start-category{
     display: flex;
     position: absolute;
     top: 30%;
@@ -59,3 +66,5 @@
         }
     }
 }
+
+

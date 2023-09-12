@@ -1,0 +1,195 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font: inherit;
+}
+
+img,
+picture,
+svg,
+video {
+  display: block;
+  max-width: 100%;
+}
+
+input,
+select,
+textarea {
+  background-color: transparent;
+  outline: none;
+}
+
+button {
+  cursor: pointer;
+  background-color: transparent;
+  outline: none;
+  border: 0;
+}
+
+body {
+  min-height: 100vh;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1;
+}
+
+html {
+  font-size: 16px;
+  line-height: normal;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  background-color: #FEF2F6;
+  font-family: "Kiwi Maru", sans-serif;
+}
+
+.wrapper {
+  padding-top: 20px;
+}
+
+.search {
+  margin-bottom: 14px;
+}
+.search-form {
+  background-color: tomato;
+  display: flex;
+  align-items: center;
+  width: 85%;
+  padding: 15px 25px;
+  border-radius: 30px;
+  background-color: #CFF1FF;
+  border: 2px solid #2EBCFF;
+  margin: 0 auto;
+}
+.search-form::placeholder {
+  color: #706767;
+  font-weight: 300;
+  line-height: normal;
+  letter-spacing: -0.5px;
+}
+.search-icon {
+  margin-right: 5px;
+}
+.search-input {
+  border: none;
+}
+
+.slider {
+  margin-bottom: 35px;
+}
+
+.slider-img {
+  padding: 0 3px;
+  width: 90vw;
+}
+.slider-img img {
+  height: 100%;
+  width: 100%;
+}
+
+.slick {
+  position: relative;
+}
+.slick-dots {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex !important;
+}
+.slick-dots li {
+  list-style-type: none;
+  margin-right: 5px;
+}
+.slick-dots button {
+  font-size: 0;
+  padding: 5px;
+  background-color: #c9c9c9;
+  border-radius: 100px;
+  width: 10px;
+  height: 10px;
+  transition: 0.2s;
+}
+
+.slick-dots .slick-active button {
+  content: "";
+  background-color: #FFB400 !important;
+  width: 20px;
+  height: 10px;
+  z-index: 10000;
+  border-radius: 100px;
+}
+
+.kansaiRank {
+  padding: 0 15px;
+}
+.kansaiRank-title {
+  color: #2A363D;
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: -0.5px;
+}
+.kansaiRank-wrapper {
+  margin-top: 15px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr 1fr;
+  gap: 7px;
+  grid-template-areas: "k1 k2" "k3 k4";
+}
+.kansaiRank-item {
+  overflow: hidden;
+}
+.kansaiRank-item1 {
+  grid-area: k1;
+}
+.kansaiRank-item2 {
+  grid-area: k2;
+}
+.kansaiRank-item3 {
+  grid-area: k3;
+}
+.kansaiRank-item4 {
+  grid-area: k4;
+}
+.kansaiRank-img {
+  width: 100%;
+}
+.kansaiRank-img--wrapper {
+  overflow: hidden;
+}
+.kansaiRank-content {
+  padding: 6px;
+  background-color: white;
+  border: 0.4px solid #AAA;
+  border-top: none;
+}
+.kansaiRank-title--sub {
+  color: #2A363D;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 127.8%;
+  letter-spacing: -0.5px;
+}
+.kansaiRank-local {
+  margin-top: 5px;
+  margin-bottom: 2px;
+  color: #515151;
+  font-size: 12px;
+  font-weight: 300;
+  letter-spacing: -0.5px;
+}
+.kansaiRank-more {
+  display: block;
+  margin: 10px 30px;
+  text-align: right;
+}
+
+/*# sourceMappingURL=app_home.css.map */
