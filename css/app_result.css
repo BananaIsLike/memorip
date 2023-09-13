@@ -59,6 +59,11 @@ body {
   font-family: "Kiwi Maru", sans-serif;
 }
 
+.wrapper {
+  width: 100vw;
+  overflow: hidden;
+}
+
 .cover {
   height: 288px;
   position: relative;
@@ -93,6 +98,20 @@ body {
   letter-spacing: -0.5px;
   color: #2EBCFF;
 }
+.cover-arrow {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  color: white;
+  font-size: 30px;
+}
+.cover-search {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  color: white;
+  font-size: 25px;
+}
 
 .amount {
   padding: 8px 16px;
@@ -105,7 +124,7 @@ body {
 
 .loca {
   background-color: #fff;
-  padding: 10px 16px;
+  padding: 10px 0 10px 16px;
   position: relative;
   margin-bottom: 15px;
 }
@@ -118,7 +137,7 @@ body {
 }
 .loca-img-list {
   display: flex;
-  overflow-x: visible;
+  overflow-x: scroll;
   margin: 8px 0 4px;
 }
 .loca-img-list::-webkit-scrollbar {

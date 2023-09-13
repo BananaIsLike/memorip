@@ -4,6 +4,10 @@
 @import "reset";
 @import "global";
 
+.wrapper{
+    width: 100vw;
+    overflow: hidden;
+}
 .cover{
     height: 288px;
     position: relative;
@@ -37,6 +41,20 @@
         letter-spacing: -0.5px;
         color: $border-color;
     }
+    &-arrow{
+        position: absolute;
+        top: 15px;
+        left: 15px;
+        color: white;
+        font-size: 30px;
+    }
+    &-search{
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        color: white;
+        font-size: 25px;
+    }
 }
 
 .amount{
@@ -50,7 +68,7 @@
    
 .loca{
     background-color: #fff;
-    padding: 10px 16px;
+    padding: 10px 0 10px 16px;
     position: relative;
     margin-bottom: 15px;
     &-name{
@@ -63,7 +81,7 @@
     }
     &-img-list{
         display: flex;
-        overflow-x: visible;
+        overflow-x: scroll;
         margin: 8px 0 4px;
         &::-webkit-scrollbar {
             display: none;
