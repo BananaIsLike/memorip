@@ -14,6 +14,10 @@
     background-position: bottom center;
     position: relative;
 }
+.logo{
+    margin: 0 auto;
+    transform: translateY(90%);
+}
 .start-btn{
     color: #1E1E1E;
     font-family: $primary-font;
@@ -58,6 +62,7 @@
         background-color: $primary-color;
         border-radius: 20px;
         border: 3px solid $border-color;
+        box-shadow: 0px 4px 4px 0px rgba(89, 89, 89, 0.25);
         &:nth-child(2){
             margin-top: -25px;
         }

@@ -95,74 +95,52 @@ body {
   box-shadow: 0px 4px 4px 0px rgba(89, 89, 89, 0.25);
 }
 
-.wrapper {
-  height: 100vh;
-  width: 100vw;
-  background-image: url(./../imgs/startMain.png);
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: bottom center;
-  position: relative;
-}
-
-.logo {
-  margin: 0 auto;
-  transform: translateY(90%);
-}
-
-.start-btn {
-  color: #1E1E1E;
-  font-family: "Kiwi Maru", sans-serif;
-  font-size: 30px;
-  line-height: normal;
-  letter-spacing: -0.5px;
-  padding: 13px 53px;
-  background-color: #fff;
-  border-radius: 10px;
-  border: 3px solid #FFF;
-  background: #FFB400;
-  box-shadow: 0px 4px 4px 0px rgba(89, 89, 89, 0.25);
-  display: block;
+.burger {
+  background-color: #CFF1FF;
+  padding: 28px 25px;
+  width: 263px;
+  height: 500px;
   position: absolute;
-  left: 50%;
-  bottom: 60px;
-  transform: translateX(-50%);
-  white-space: nowrap;
+  z-index: 1000;
+  top: 25px;
+  right: 0;
+  border-radius: 12px 0 0 12px;
+  border: 3px solid #2EBCFF;
+  border-right: none;
+  box-shadow: 0px 1px 4px 0px rgba(22, 144, 202, 0.25);
+  display: none;
 }
-
-.start-category {
+.burger .sendBtn {
+  transform: translate(2%, 40%);
+  width: 80%;
+}
+.burger-list {
   display: flex;
-  position: absolute;
-  top: 30%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  margin-right: -27px;
+  flex-wrap: wrap;
+  gap: 10px;
 }
-.start-category--img {
-  margin: 0 auto;
-}
-.start-category--img1 {
-  margin-top: 20px;
-}
-.start-category--btn {
-  padding: 10px 0;
-  display: block;
+.burger-item {
+  box-shadow: 0px 1px 4px 0px rgba(22, 144, 202, 0.25);
+  border-radius: 15px;
+  width: 100px;
+  height: 100px;
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  flex-direction: column;
-  width: 80px;
-  height: 80px;
-  background-color: #CFF1FF;
-  border-radius: 20px;
-  border: 3px solid #2EBCFF;
-  box-shadow: 0px 4px 4px 0px rgba(89, 89, 89, 0.25);
-}
-.start-category--btn:nth-child(2) {
-  margin-top: -25px;
-}
-.start-category--btn:not(:last-child) {
-  margin-right: 27px;
+  padding: 18px 0;
 }
 
-/*# sourceMappingURL=app_start.css.map */
+.cancel {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: end;
+}
+
+.listBtn {
+  bottom: 90%;
+  right: 110px;
+  padding: 8px;
+}
+
+/*# sourceMappingURL=app_hajime2.css.map */

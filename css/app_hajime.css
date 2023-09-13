@@ -59,6 +59,42 @@ body {
   font-family: "Kiwi Maru", sans-serif;
 }
 
+.backBtn {
+  padding: 10px;
+  background-color: #CFF1FF;
+  border: 3px solid #2EBCFF;
+  border-radius: 10px;
+  position: absolute;
+  bottom: 50px;
+  left: 35px;
+  box-shadow: 0px 4px 4px 0px rgba(89, 89, 89, 0.25);
+}
+
+.sendBtn {
+  padding: 15px 25px;
+  background-color: #FFB400;
+  border-radius: 10px;
+  border: 3px solid white;
+  text-align: center;
+  font-size: 18px;
+  letter-spacing: 1.5px;
+  position: absolute;
+  bottom: 50px;
+  right: 35px;
+  box-shadow: 0px 4px 4px 0px rgba(89, 89, 89, 0.25);
+}
+
+.listBtn {
+  padding: 10px;
+  background-color: #FFB400;
+  border: 3px solid #FF7400;
+  border-radius: 10px;
+  position: absolute;
+  bottom: 50px;
+  right: 35px;
+  box-shadow: 0px 4px 4px 0px rgba(89, 89, 89, 0.25);
+}
+
 .wrapper {
   height: 100vh;
   width: 100vw;
@@ -69,11 +105,29 @@ body {
   position: relative;
 }
 
-.logo {
+.listBtn {
+  bottom: 90%;
+  right: 110px;
+  padding: 8px;
+}
+
+.burgerBtn {
+  padding: 17px 15px;
+  background-color: #CFF1FF;
+  border: 3px solid #2EBCFF;
+  border-radius: 10px;
   position: absolute;
+  bottom: 90%;
+  right: 35px;
+  box-shadow: 0px 4px 4px 0px rgba(89, 89, 89, 0.25);
+}
+
+.sche {
+  position: absolute;
+  width: 80%;
   left: 50%;
   transform: translateX(-50%);
-  top: 40px;
+  top: 100px;
 }
 
 .code {
@@ -101,6 +155,7 @@ body {
   top: 0;
   right: 15px;
   top: 50px;
+  display: none;
 }
 .nav ul {
   border: 3px solid #2EBCFF;
