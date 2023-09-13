@@ -1,0 +1,98 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font: inherit;
+}
+
+img,
+picture,
+svg,
+video {
+  display: block;
+  max-width: 100%;
+}
+
+input,
+select,
+textarea {
+  background-color: transparent;
+  outline: none;
+}
+
+button {
+  cursor: pointer;
+  background-color: transparent;
+  outline: none;
+  border: 0;
+}
+
+body {
+  min-height: 100vh;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+html {
+  font-size: 16px;
+  line-height: normal;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  background-color: #FEF2F6;
+  font-family: "Kiwi Maru", sans-serif;
+}
+
+.backBtn {
+  padding: 10px;
+  background-color: #CFF1FF;
+  border: 3px solid #2EBCFF;
+  border-radius: 10px;
+  position: absolute;
+  bottom: 50px;
+  left: 35px;
+  box-shadow: 0px 4px 4px 0px rgba(89, 89, 89, 0.25);
+}
+
+.sendBtn {
+  padding: 15px 25px;
+  background-color: #FFB400;
+  border-radius: 10px;
+  border: 3px solid white;
+  text-align: center;
+  font-size: 18px;
+  letter-spacing: 1.5px;
+  position: absolute;
+  bottom: 50px;
+  right: 35px;
+  box-shadow: 0px 4px 4px 0px rgba(89, 89, 89, 0.25);
+}
+
+.listBtn {
+  padding: 10px;
+  background-color: #FFB400;
+  border: 3px solid #FF7400;
+  border-radius: 10px;
+  position: absolute;
+  bottom: 50px;
+  right: 35px;
+  box-shadow: 0px 4px 4px 0px rgba(89, 89, 89, 0.25);
+}
+
+/*# sourceMappingURL=app_map.css.map */

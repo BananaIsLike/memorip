@@ -59,6 +59,42 @@ body {
   font-family: "Kiwi Maru", sans-serif;
 }
 
+.backBtn {
+  padding: 10px;
+  background-color: #CFF1FF;
+  border: 3px solid #2EBCFF;
+  border-radius: 10px;
+  position: absolute;
+  bottom: 50px;
+  left: 35px;
+  box-shadow: 0px 4px 4px 0px rgba(89, 89, 89, 0.25);
+}
+
+.sendBtn {
+  padding: 15px 25px;
+  background-color: #FFB400;
+  border-radius: 10px;
+  border: 3px solid white;
+  text-align: center;
+  font-size: 18px;
+  letter-spacing: 1.5px;
+  position: absolute;
+  bottom: 50px;
+  right: 35px;
+  box-shadow: 0px 4px 4px 0px rgba(89, 89, 89, 0.25);
+}
+
+.listBtn {
+  padding: 10px;
+  background-color: #FFB400;
+  border: 3px solid #FF7400;
+  border-radius: 10px;
+  position: absolute;
+  bottom: 50px;
+  right: 35px;
+  box-shadow: 0px 4px 4px 0px rgba(89, 89, 89, 0.25);
+}
+
 .wrapper {
   padding-top: 20px;
 }

@@ -1,0 +1,44 @@
+// sass ./scss/app_letterType.scss ./css/app_letterType.css --watch
+
+@import "variables";
+@import "reset";
+@import "global";
+
+.title{
+    text-align: center;
+    margin-top: 24px;
+    margin-bottom: 25px;
+    font-size: 20px;
+}
+.type img{
+    margin: 0 auto;
+}
+.btn-area{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    gap: 25px;
+    p{
+        white-space: nowrap;
+    }
+}
+.prev, .next{
+    width: 35px;
+    height: 35px;
+    background-color: $primary-color;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    border: 3px solid $border-color;
+    color: $text-color;
+    box-shadow: 0px 4px 4px 0px rgba(89, 89, 89, 0.25);
+}
+.okBtn{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 10%;
+}

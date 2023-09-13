@@ -1,0 +1,70 @@
+// sass ./scss/app_hajime.scss ./css/app_hajime.css --watch
+
+@import "variables";
+@import "reset";
+@import "global";
+
+.wrapper{
+    height: 100vh;
+    width: 100vw;
+    background-image: url(./../imgs/startMain.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    position: relative;
+}
+.logo{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 40px;
+    
+}
+.code{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 18%;
+}
+.sub{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    bottom: 11%;
+    color: #1E1E1E;
+    font-weight: 500;
+    line-height: 123.3%; /* 19.728px */
+    letter-spacing: -0.5px;
+}
+.nav{
+    background-color: $primary-color;
+    position: absolute;
+    top: 0;
+    right: 15px;
+    top: 50px;
+    ul{
+        border: 3px solid $border-color;
+    }
+    li {
+        padding: 10px 20px;
+        text-align: center;
+        a{
+            display: block;
+        }
+        &:first-child{
+            padding: 15px;
+            display: flex;
+            justify-content: end;
+        }
+        &:last-child{
+            padding-bottom: 20px;
+        }
+    }
+}
+
+
+
+
+
+

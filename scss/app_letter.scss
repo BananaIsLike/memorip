@@ -1,0 +1,93 @@
+// sass ./scss/app_letter.scss ./css/app_letter.css --watch
+
+@import "variables";
+@import "reset";
+@import "global";
+
+.wrapper{
+    height: 100vh;
+    width: 100vw;
+    background-image: url(./../imgs/startMain.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    position: relative;
+}
+.box{
+    background-color: $primary-color;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px 0 45px;
+    border-radius: 0 0 20px 20px;
+    box-shadow: 0 3px $border-color;
+    p{
+        font-size: 22px;
+        line-height: 20px;
+        letter-spacing: -0.5px;
+        white-space: nowrap;
+        transform: translateX(-28%);
+        &::first-line{
+            font-size: 14px;
+        }
+    }
+    &::before{
+        content: "";
+        width: 15px;
+        height: 15px;
+        background-color: $primary-color;
+        border-radius: 50%;
+        position: absolute;
+        bottom: -25px;
+        right: 40px;
+        z-index: 10;
+    }
+    &::after{
+        content: "";
+        width: 8px;
+        height: 8px;
+        background-color: $primary-color;
+        border-radius: 50%;
+        position: absolute;
+        bottom: -35px;
+        right: 55px;
+        z-index: 10;
+    }
+}
+.say{
+    margin: 35px 45px;
+    text-align: center;
+    font-size: 15px;
+}
+.tip{
+    &-list{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    &-item{
+        margin-bottom: 15px;
+        position: relative;
+    }
+    &-merit{
+        background-color: #128493;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        color: #FEF2F6;
+        text-align: center;
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 107.3%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        top: 0;
+        left: 0;
+        transform: translate(-20%, -20%);
+        z-index: 10000;
+        box-shadow: 0 0 0px 2.5px white, 0 0 6px 2.5px $border-color;
+
+    }
+}

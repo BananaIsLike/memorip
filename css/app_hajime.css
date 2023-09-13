@@ -1,0 +1,124 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font: inherit;
+}
+
+img,
+picture,
+svg,
+video {
+  display: block;
+  max-width: 100%;
+}
+
+input,
+select,
+textarea {
+  background-color: transparent;
+  outline: none;
+}
+
+button {
+  cursor: pointer;
+  background-color: transparent;
+  outline: none;
+  border: 0;
+}
+
+body {
+  min-height: 100vh;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+html {
+  font-size: 16px;
+  line-height: normal;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  background-color: #FEF2F6;
+  font-family: "Kiwi Maru", sans-serif;
+}
+
+.wrapper {
+  height: 100vh;
+  width: 100vw;
+  background-image: url(./../imgs/startMain.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  position: relative;
+}
+
+.logo {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 40px;
+}
+
+.code {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 18%;
+}
+
+.sub {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  bottom: 11%;
+  color: #1E1E1E;
+  font-weight: 500;
+  line-height: 123.3%; /* 19.728px */
+  letter-spacing: -0.5px;
+}
+
+.nav {
+  background-color: #CFF1FF;
+  position: absolute;
+  top: 0;
+  right: 15px;
+  top: 50px;
+}
+.nav ul {
+  border: 3px solid #2EBCFF;
+}
+.nav li {
+  padding: 10px 20px;
+  text-align: center;
+}
+.nav li a {
+  display: block;
+}
+.nav li:first-child {
+  padding: 15px;
+  display: flex;
+  justify-content: end;
+}
+.nav li:last-child {
+  padding-bottom: 20px;
+}
+
+/*# sourceMappingURL=app_hajime.css.map */
