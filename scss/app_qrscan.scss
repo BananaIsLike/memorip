@@ -1,0 +1,12 @@
+// sass ./scss/app_qrscan.scss ./css/app_qrscan.css --watch
+
+@import "variables";
+@import "reset";
+@import "global";
+
+
+.container{
+    height: 100%;
+    width: 100%;
+    background-color: #CFBDBD;
+}

@@ -1,0 +1,24 @@
+// sass ./scss/app_calender.scss ./css/app_calender.css --watch
+
+@import "variables";
+@import "reset";
+@import "global";
+
+.mainTitle img{
+    margin: 0 auto;
+    margin-top: 20px;margin-bottom: 20px;
+}
+.title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+.calender img{
+    margin: 0 auto;
+}
+.hyogo img{
+    margin: 0 auto;
+    width: 100%;
+}
