@@ -5,8 +5,13 @@
 @import "global";
 
 .wrapper{
+    padding-top: 20px;
+    height: 100vh;
     width: 100vw;
-    overflow: hidden;
+    overflow: scroll;
+    &::-webkit-scrollbar{
+        display: none;
+    }
 }
 .cover{
     height: 288px;
